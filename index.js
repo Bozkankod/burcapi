@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-let port = process.env.port || 3000;
 const importData = require("./data.json");
 
 
@@ -15,6 +14,6 @@ app.get("/burclar",(req,res)=>{
 })
 
 
-app.listen(port,()=>{
-    console.log("API aktif.");
-})
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
