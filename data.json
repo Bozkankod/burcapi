@@ -2,11 +2,15 @@
     "data": [
         {
             "name": "Koc",
-            "gunluk": "Koc Günlük"
+            "gunluk": "Koc Günlük",
+            "haftalik": "Koç haftalık",
+            "aylik": "Koç aylık"
         },
         {
             "name": "Boğa",
-            "gunluk": "boğa Günlük"
+            "gunluk": "boğa Günlük",
+            "haftalik": "boğa haftalık",
+            "aylik": "boğa aylık"
         }
     ]
 }
